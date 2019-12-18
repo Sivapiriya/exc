@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> </title>
+</head>
+<body>
+  <p>  Find grade</p> <br>
+  <p id="demo"></p>
+
+  <script>
+function grade(marks) {
+  if(marks>75)
+    {
+  return "A " + " = " + marks;
+    }
+
+  else if(marks>60)
+    {
+  return "B " + " = " + marks;
+    }
+
+  else if(marks>45)
+    {
+  return "C " + " = " + marks;
+    }
+
+  else
+    {
+  return "F " + " = " + marks;
+    }
+}
+document.getElementById("demo").innerHTML = grade(60);
+</script>
+
+</body>
+</html>
